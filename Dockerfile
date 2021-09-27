@@ -1,5 +1,5 @@
 FROM golang as builder
-RUN go get github.com/zirei/rbUserBackend
+RUN go get github.com/zirei/rbUsersBackend
 
 FROM node:14-stretch-slim
 
